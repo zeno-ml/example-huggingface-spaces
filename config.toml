@@ -1,0 +1,12 @@
+# Update this file with your Zeno configuration. The port and host are the default for Hugging Face Spaces.
+functions = "./"
+view = "image-classification"
+metadata = "./metadata.csv"
+# path or URL
+data_path = "path/to/data"
+data_column = "data_column"
+label_column = "label_column"
+batch_size = 64
+
+port = 7860 
+host = "0.0.0.0"
